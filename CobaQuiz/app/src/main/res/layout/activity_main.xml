@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:padding="10dp"
+    android:background="@drawable/ini">
+
+
+    <Button
+        android:id="@+id/Answer1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="4dp"
+        android:background="#DDA0DD"
+        android:text="Button"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/Answer2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/Answer1"
+        android:layout_marginBottom="9dp"
+        android:background="#DDA0DD"
+        android:text="Button"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/Answer3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/Answer2"
+        android:layout_marginBottom="13dp"
+        android:background="#DDA0DD"
+        android:text="Button"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/Answer4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/Answer3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="14dp"
+        android:background="#DDA0DD"
+        android:text="Button"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/Score"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="4dp"
+        android:gravity="center"
+        android:text="Score"
+        android:textSize="20dp"
+        android:textColor="#ffffff"/>
+
+    <TextView
+        android:id="@+id/Question"
+        android:layout_width="363dp"
+        android:layout_height="199dp"
+        android:layout_below="@+id/Score"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text="Question"
+        android:textColor="#ffffff"
+        android:textSize="25dp" />
+
+</RelativeLayout>
